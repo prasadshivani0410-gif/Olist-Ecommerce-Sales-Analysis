@@ -1,19 +1,19 @@
 # Olist E-Commerce Sales Analysis — Project 01
 
-## 📌 Overview
+##  Overview
 This project analyzes the Olist Brazilian e-commerce dataset (2016–2018) to understand sales trends, top categories, regional demand, and customer satisfaction. The final output is an interactive Power BI dashboard.
 
-## 📊 Dataset
+##  Dataset
 - **File:** `olist_cleaned.csv`
 - **Rows:** ~113,000 order-item level records
 - **Total Revenue:** R$15.77 million | **Total Orders:** 98,666
 - **Key fields:** order status, delivery dates, price, freight, revenue, customer state, review score, product category, delivery days
 
-## 🛠️ Tools Used
+## Tools Used
 - Power BI (data modeling, DAX, visualization)
 - Python (Pandas) for data cleaning and analysis
 
-## 📈 Dashboard Visuals
+## Dashboard Visuals
 1. KPI Cards — Total Revenue, Total Orders, Top Category, Best Month
 2. Monthly Sales Trend (line chart)
 3. Order Value Distribution (histogram)
@@ -22,7 +22,7 @@ This project analyzes the Olist Brazilian e-commerce dataset (2016–2018) to un
 6. Regional Sales by State (bar chart)
 7. Product Category and Month Revenue table (matrix)
 
-## 💡 Business Insights
+## Business Insights
 
 1. **Health & Beauty sells the most** —  contributing total revenue R$1.45M, the top category on the dashboard.
    **Recommendation:** The company should increase inventory and marketing for this category.
@@ -39,10 +39,10 @@ This project analyzes the Olist Brazilian e-commerce dataset (2016–2018) to un
 5. **November is the best month** — sales peaked at R$1.17M, likely due to Black Friday.
    **Recommendation:** Plan discount campaigns before this month to maximise sales.
 
-## 🔍 Most Surprising Finding
+## Most Surprising Finding
 Customers rarely feel "just okay". Nearly 11% of orders is rated 1-star, almost matching the 2-star and 3-star combined categories. They either love it by giving 5 stars or hate it by giving 1 star, barely anything in between, like 3% of orders rated 2-star and 8% of orders rated 3-star. Delivery delays seem to be the main reason people end up in the "hate it" group.
 
-## 📂 Repository Structure
+## Repository Structure
 ```
 ├── OLIST_E-COMMERCE_SALES_ANALYSIS.pbix   # Power BI dashboard file
 ├── olist_cleaned.csv                       # Cleaned dataset
@@ -50,6 +50,6 @@ Customers rarely feel "just okay". Nearly 11% of orders is rated 1-star, almost 
 └── dashboard_screenshot.png                 # Dashboard preview
 ```
 
-## 🚀 How to View
+## How to View
 1. Open `OLIST_E-COMMERCE_SALES_ANALYSIS.pbix` in Power BI Desktop.
 2. Or view the attached dashboard screenshot for a quick preview.
